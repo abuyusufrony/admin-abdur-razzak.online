@@ -39,7 +39,7 @@ const Nav = () => {
 
 
                 <div className="flex justify-center lg:ml-12">
-                    <img className="w-[100px] h-[115px]" src={logo} alt="Logo" />
+                    <img className="w-[70px] h-[95px]" src={logo} alt="Logo" />
                 </div>
 
 
