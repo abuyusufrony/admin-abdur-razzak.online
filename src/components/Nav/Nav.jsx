@@ -9,11 +9,11 @@ const Nav = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     return (
-        <div className="w-full px-4 md:px-8 lg:px-[310px]">
+        <div className="w-full px-4 md:px-8 lg:px-[310px] font-popins">
             <div className="navbar bg-base-100 flex items-center justify-between py-4">
-                {/* Left side: Mobile hamburger + desktop menu */}
+
                 <div className="flex items-center">
-                    {/* Mobile hamburger */}
+
                     <div className="lg:hidden mr-4">
                         <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="focus:outline-none">
                             <svg
@@ -28,8 +28,8 @@ const Nav = () => {
                         </button>
                     </div>
 
-                    {/* Desktop nav links */}
-                    <div className="hidden lg:flex space-x-12 text-[rgb(26,26,26)] text-sm font-medium">
+
+                    <div className="hidden lg:flex space-x-12 text-[rgb(26,26,26)] text-sm ">
                         <Link>Home</Link>
                         <Link>Shop</Link>
                         <Link>Blogs</Link>
@@ -37,12 +37,12 @@ const Nav = () => {
                     </div>
                 </div>
 
-                {/* Center logo */}
-                <div className="flex justify-center lg:ml-16">
+
+                <div className="flex justify-center lg:ml-12">
                     <img className="w-[100px] h-[115px]" src={logo} alt="Logo" />
                 </div>
 
-                {/* Right icons */}
+
                 <div className="flex items-center space-x-6">
                     <div className="flex items-center space-x-2">
                         <button className='cursor-pointer'>Login</button>
