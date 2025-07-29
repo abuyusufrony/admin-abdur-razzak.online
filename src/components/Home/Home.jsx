@@ -5,6 +5,7 @@ import Agproducts from '../agproducts/Agproducts';
 import Landproduct from '../Landproduct/Landproduct';
 import Review from '../Review/Review';
 import Contact from '../Contact/Contact';
+import Footeer from '../footeer/Footeer';
 
 const Home = () => {
     return (
@@ -22,6 +23,7 @@ const Home = () => {
             </section>
             <Review></Review>
             <Contact></Contact>
+            <Footeer></Footeer>
 
         </div>
     );

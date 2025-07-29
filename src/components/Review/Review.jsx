@@ -13,6 +13,7 @@ import customer from '../../assets/customer.png'
 
 
 
+
 import Marquee from 'react-fast-marquee';
 
 const Review = () => {
@@ -87,10 +88,12 @@ const Review = () => {
 
 
 
-            <section className='card-section  '>
-                <div className=''>
-                    <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-10  p-4'>
-                        <div className="bg-gradient-to-br from-white to-[#C7E4FF] p-6 rounded-2xl shadow-md max-w-md mt-16 ">
+            <section className="card-section">
+                <div className="px-4 sm:px-6 md:px-12">
+                    {/* Cards container */}
+                    <div className="flex flex-col lg:flex-row justify-center lg:justify-between gap-6 mt-10 p-4">
+                        {/* Card 1 */}
+                        <div className="bg-gradient-to-br from-white to-[#C7E4FF] p-6 rounded-2xl shadow-md max-w-full lg:max-w-md mt-4 lg:mt-16">
                             <div className="mb-4">
                                 <img src={cardone} alt="icon" className="w-12 h-16" />
                             </div>
@@ -104,47 +107,42 @@ const Review = () => {
                             </p>
                         </div>
 
-
-                        <div className="bg-[rgb(0,43,85)] p-6 rounded-2xl text-white shadow-md max-w-md  ">
-                            <div className='mb-4'>
+                        {/* Card 2 */}
+                        <div className="bg-[rgb(0,43,85)] p-6 rounded-2xl text-white shadow-md max-w-full lg:max-w-md mt-4 lg:mt-0">
+                            <div className="mb-4">
                                 <img src={seting} alt="icon" className="w-14 h-16 mb-4" />
                             </div>
                             <h2 className="text-2xl font-semibold leading-snug mb-3">
                                 Unmatched Durability with Corrosion-Free Technology
                             </h2>
-                            <p className=" text-base leading-relaxed text-white">
+                            <p className="text-base leading-relaxed text-white">
                                 Our JF-270 barbed wire features a robust 270 GSM zinc coating, ensuring superior resistance against rust and corrosion. Paired with stainless steel binding wire, our fencing solutions are designed to withstand harsh environmental conditions, offering longevity and reliability.
                             </p>
-
                         </div>
 
-
-                        <div className="bg-gradient-to-br from-white to-[#C7E4FF] p-6 rounded-2xl shadow-md max-w-md mt-16 ">
+                        {/* Card 3 */}
+                        <div className="bg-gradient-to-br from-white to-[#C7E4FF] p-6 rounded-2xl shadow-md max-w-full lg:max-w-md mt-4 lg:mt-16">
                             <div className="mb-4">
                                 <img src={circle} alt="icon" className="w-14 h-16" />
                             </div>
                             <h2 className="text-2xl font-bold text-gray-900 leading-snug mb-3">
                                 Innovative and Diverse <br /> Product Range
-
                             </h2>
                             <p className="text-gray-700 text-base leading-relaxed">
                                 We offer a wide array of fencing solutions, including Polyhex Mesh, Australian Trellis, and GI Poultry Mesh, catering to various needs from agricultural to residential applications. Our products combine functionality with aesthetic appeal, ensuring both security and style.
                             </p>
                         </div>
-
                     </div>
 
-
+                    {/* Button */}
                     <div className="flex flex-col items-center gap-4 mt-8">
-
-                        <button className="bg-[rgb(176,221,29)] rounded-full px-8 py-2 cursor-pointer  hover:bg-lime-600 mt-3.5">
+                        <button className="bg-[rgb(176,221,29)] rounded-full px-8 py-2 cursor-pointer hover:bg-lime-600 mt-3.5">
                             Contact us
                         </button>
-
                     </div>
                 </div>
-
             </section>
+
 
 
             <section>

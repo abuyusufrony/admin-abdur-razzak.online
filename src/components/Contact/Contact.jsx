@@ -54,7 +54,7 @@ const Contact = () => {
                         </div>
 
                         <div className="flex justify-center lg:justify-start">
-                            <button className="bg-[rgb(176,221,29)] w-[110px] h-[36px] p-2 text-center rounded-full mt-8 lg:ml-7">
+                            <button className="bg-[rgb(176,221,29)] w-[110px] h-[36px] p-2 text-center rounded-full mt-8 mb-2.5 lg:ml-7">
                                 Submit
                             </button>
                         </div>
@@ -65,7 +65,7 @@ const Contact = () => {
                         <img className="w-full h-auto lg:h-[450px]" src={Map} alt="" />
                         <div className="absolute bottom-2 left-2 right-2 bg-white rounded-2xl p-3 sm:p-4 text-sm sm:text-base">
                             <div className="flex space-x-2 items-start">
-                                <img src={loc} alt="" className="mt-1 w-4 sm:w-5" />
+                                <img src={loc} alt="" className="mt-1 w-8 sm:w-12 " />
                                 <h2>
                                     (2nd Floor), Pattalamma Temple Rd, Basavangudi, Bangalore, 560004
                                 </h2>

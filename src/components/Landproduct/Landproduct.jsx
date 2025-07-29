@@ -25,7 +25,7 @@ const Landproduct = () => {
                     <div
                         key={product.id}
                         style={{ backgroundColor: 'rgb(242, 244, 246)' }}
-                        className="p-4 rounded-lg mb-4"
+                        className="p-4 rounded-lg mb-4 hover:scale-105 transition-transform duration-300"
                     >
                         <div className="border-dashed border-2 border-gray-300 mb-4">
                             <img className="rounded-2xl w-full" src={product.image} alt="" />
