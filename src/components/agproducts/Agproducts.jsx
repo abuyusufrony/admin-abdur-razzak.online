@@ -25,7 +25,7 @@ const Agproducts = () => {
                         </div>
                         <h3 className="text-lg font-semibold">{product.title}</h3>
                         <p>{product.price}</p>
-                        <button className="bg-lime-500 rounded-full px-8 py-2 text-sm hover:bg-lime-600 mt-3.5">
+                        <button className="bg-lime-500 rounded-full px-8 py-2 cursor-pointer  text-sm hover:bg-lime-600 mt-3.5">
                             Shop Now
                         </button>
                     </div>
