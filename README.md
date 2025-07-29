@@ -1,13 +1,38 @@
-# React + Vite
+# 🌿 JF Products – Green Solutions for Modern Living
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and modern eCommerce web application showcasing premium **Agricultural** and **Landscape** products with a beautiful, responsive design. Built using **React**, **Framer Motion**, **SwiperJS**, and **Tailwind CSS**, this project focuses on engaging UI, strong product branding, and smooth user experience.
 
-Currently, two official plugins are available:
+## 🔗 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+👉 [Visit Website](https://sunny-stroopwafel-8ece0c.netlify.app)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# admin-abdur-razzak.online
+
+
+
+
+## 🚀 Features
+
+- 🛒 Modern, responsive homepage with sections for **Agricultural** and **Landscape** products
+- 🎞️ Interactive product carousel powered by **SwiperJS**
+- ✨ Smooth animations using **Framer Motion**
+- 📦 Products loaded dynamically from local JSON files
+- 💬 Marquee-based customer trust section
+- 🗺️ Embedded contact map and inquiry form
+- 📩 Newsletter subscription and footer with social media links
+
+---
+
+## 🧰 Tech Stack
+
+- **React.js**
+- **Tailwind CSS**
+- **Framer Motion**
+- **SwiperJS**
+- **React Fast Marquee**
+
+---
+
+## 📁 Folder Structure
+

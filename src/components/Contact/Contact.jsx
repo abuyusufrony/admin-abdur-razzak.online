@@ -54,7 +54,7 @@ const Contact = () => {
                         </div>
 
                         <div className="flex justify-center lg:justify-start">
-                            <button className="bg-[rgb(176,221,29)] w-[110px] h-[36px] p-2 text-center rounded-full mt-8 mb-2.5 lg:ml-7">
+                            <button className="bg-[rgb(176,221,29)] w-[110px] cursor-pointer h-[36px] p-2 text-center rounded-full mt-8 mb-2.5 lg:ml-7">
                                 Submit
                             </button>
                         </div>
