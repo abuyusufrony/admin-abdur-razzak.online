@@ -4,6 +4,7 @@ import Carousel from '../carousel/Carousel';
 import Agproducts from '../agproducts/Agproducts';
 import Landproduct from '../Landproduct/Landproduct';
 import Review from '../Review/Review';
+import Contact from '../Contact/Contact';
 
 const Home = () => {
     return (
@@ -12,9 +13,15 @@ const Home = () => {
 
             <Nav></Nav>
             <Carousel></Carousel>
-            <Agproducts></Agproducts>
-            <Landproduct></Landproduct>
+
+            <section className=' lg:mx-24'>
+                <Agproducts></Agproducts>
+
+                <Landproduct></Landproduct>
+
+            </section>
             <Review></Review>
+            <Contact></Contact>
 
         </div>
     );
